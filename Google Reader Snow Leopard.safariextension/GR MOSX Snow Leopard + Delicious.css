@@ -1,0 +1,416 @@
+#sub-tree-header {
+	color: #768693 !important;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5) !important;
+}
+
+#lhn-subscriptions .lhn-section-footer {
+	background: #d1d7e2 !important;
+
+	/*background-image: url("img/top-controlsBG.png") !important;*/
+	background-image: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #f2f2f2),            color-stop(0.4, #f2f2f2),
+            color-stop(0.4, #e6e6e6),            color-stop(1,   #e6e6e6)        ) !important;
+	border: none !important;
+	border-top: 1px solid #cacaca !important;
+}
+
+/*#lhn-add-subscription-section {
+z-index: 1000 !important;
+position: absolute !important;
+bottom: 3px !important;
+left: 8px !important;
+width: 0px !important;
+border-color: transparent !important;
+font-size: 0px !important;
+color: transparent !important;
+padding: 0px !important;
+margin: 0px !important;
+}*/
+
+/*#lhn-add-subscription-section {
+	z-index: 1000 !important;
+	position: absolute !important;
+	bottom: 1px !important;
+	left: 0px !important;
+	width: 0px !important;
+	border-color: transparent !important;
+	font-size: 0px !important;
+	color: transparent !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}*/
+
+#lhn-add-subscription-section {
+	z-index: 1000 !important;
+	position: absolute !important;
+	bottom: 1px !important;
+	left: 0px !important;
+	width: 0px !important;
+	/*height: 0px !important;*/
+	background: transparent !important;
+	border-color: transparent !important;
+	font-size: 0px !important;
+	color: transparent !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+/*#lhn-add-subscription-section span {
+background: transparent url("img/toolbtnMulti-add.png") no-repeat !important;
+padding-top: 19px !important;
+padding-left: 35px !important;
+color: transparent !important;}*/
+
+#lhn-add-subscription-section span {
+	background: transparent url("img/AddsubscriptionButton.png") no-repeat center center !important;
+	padding: 0px !important;
+	padding-top: 23px !important;
+	padding-left: 20px !important;
+	margin: 0px !important;
+	width: 0 !important;
+	height: 0 !important;
+	color: transparent !important;
+	border-right: 1px solid #cacaca !important;
+	-webkit-box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .6);
+}
+
+#lhn-add-subscription-section:active span {
+	background: rgba(0,0,0, .1) url("img/AddsubscriptionButtonActive.png") no-repeat center center !important;
+}
+
+/*#lhn-add-subscription-section span:active {
+background: transparent url("img/toolbtnMulti-AddActive.png") no-repeat !important;}*/
+
+#lhn-add-subscription-section .goog-button-base-open .goog-button-body,
+#lhn-add-subscription-section .goog-button-body:hover {
+	background: transparent !important;
+}
+
+.lhn-hidden #lhn-subscriptions .lhn-section-footer {
+	-webkit-border-bottom-left-radius: 5px !important;
+	-webkit-border-bottom-right-radius: 5px !important;
+}
+
+.lhn-hidden #lhn-add-subscription-section span {
+	padding-top: 8px !important;
+	padding-bottom: 12px !important;
+	margin-left: 0px !important;
+}
+
+.lhn-hidden #sub-tree-subscriptions {
+	margin-left: 33px !important;
+}
+
+.lhn-hidden #lhn-add-subscription .goog-button-body {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+/*#sub-tree-subscriptions {
+position: relative !important;
+bottom: 1px !important;
+left: 0 !important;
+background: url("img/toolbtnMulti-Settings.png") no-repeat !important;
+margin-left: 32px !important;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+padding-left: 35px !important;
+font-size: 0 !important;
+color: transparent !important;}*/
+
+#sub-tree-subscriptions {
+	position: relative !important;
+	bottom: 0px !important;
+	left: 0 !important;
+	background: transparent url("img/gear2.png") no-repeat center center !important;
+	margin-left: 19px !important;
+	padding-top: 13px !important;
+	padding-bottom: 9px !important;
+	padding-left: 20px !important;
+	font-size: 0 !important;
+	color: transparent !important;
+	border-right: 1px solid #cacaca !important;
+	-webkit-box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .6);
+}
+
+#sub-tree-subscriptions:active {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+#nav {
+	padding-top: 6px !important;
+}
+
+#overview-selector .text {
+	background: url("img/minicon-home.png") 0 2px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#reading-list-selector .text {
+	background: url("img/minicon-allitems.png") 0 2px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#recent-activity #recent-activity-star h4, 
+.entry .entry-actions .item-star-active, .entry .entry-icons .item-star-active, 
+#star-selector .text {
+	background: url("img/minicon-star.png") 0 1px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#star-selector .selector-icon {
+	display: none !important;
+}
+
+.entry .entry-actions .item-star-active, .entry .entry-icons .item-star-active {
+	background-position: 0 -1px !important;
+}
+
+.entry .entry-actions .item-star, .entry .entry-icons .item-star {
+	background: url("img/minicon-starempty.png") 0 -1px no-repeat !important;
+}
+
+#your-items-tree-item-0-name .name-text {
+	background: url("img/minicon-stuff.png") 0 0px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#your-items-tree-item-1-link,
+#your-items-tree-item-2-link {
+	padding-left: 39px !important;
+}
+
+#your-items-tree .broadcast-icon {
+	background: url("img/minicon-shareditems.png") 0 0px no-repeat !important;
+}
+
+#your-items-tree .created-icon {
+	background: url("img/minicon-notes.png") 0 1px no-repeat !important;
+}
+
+#trends-selector .text {
+	background: url("img/minicon-stats.png") 0 2px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#trends-selector .selector-icon {
+	display: none !important;
+}
+
+#directory-selector .text {
+	background: url("img/minicon-browse.png") 0 2px no-repeat !important;
+	padding-left: 20px !important;
+}
+
+#friends-tree-item-0-link .name-text {
+	background: url("img/minicon-people.png") 0 -1px no-repeat !important;
+	padding-left: 20px !important;
+	margin-left: 0px !important;
+}
+
+#friends-tree-container .lhn-section-footer {
+	background: #fff;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-left: ;
+}
+
+#friends-tree-item-1-link {
+	margin-left: -16px !important;
+}
+.friend-tree-comments-name-text {
+	font-weight: normal;
+}
+
+#lhn-recommendations .link.lhn-section-primary {
+	padding-left: 24px !Important;
+}
+
+#recs-tree-item-0-link .name-text {
+	background: url("img/minicon-explore.png") 0 -1px no-repeat !important;
+	padding-left: 20px !important;
+	margin-left: 0px !important;
+	font-weight: normal !important;
+}
+
+#friends-tree .friend-tree-comments-icon {
+	background: url("img/friendscomment.png") 0 1px no-repeat !important;
+}
+
+#friends-tree.scroll-tree li#friends-tree-item-1-main a {
+	padding-left: 39px !important;
+}
+
+#friends-settings-link {
+	/*padding-left: 48px !important;*/
+	padding-left: 10px !important;
+}
+
+#lhn-selectors .name-text-d-1, #lhn-friends .name-text-d-1 {
+	padding-left: 2px !important;
+}
+
+#lhn-selectors.lhn-section-minimized #reading-list-selector .link,
+#friends-tree-item-0-name,
+#sub-tree-header {
+	padding-left: 14px !important;
+}
+
+.lhn-minimize {
+	position: absolute !important;
+	left: 8px !important;
+	background: url("img/arrowdown2.png") no-repeat 0 2px !important;
+}
+
+.lhn-section-minimized .lhn-minimize {
+	background: url("img/arrowright2.png") no-repeat 0 1px !important;
+}
+
+.lhn-section:not(:hover) .lhn-menubutton {
+	opacity: 0 !important;
+}
+
+#sub-tree-refreshing {
+	background: transparent url("img/loader.gif") no-repeat scroll right center !important;
+	padding-left: 6px !important;
+	padding-right: 20px !important;
+}
+
+#quick-add-bubble-holder {
+	top: auto !important;
+	bottom: 30px !important;
+	-webkit-border-image: url("img/edittags.png") 12 16 28 52 / 12px 16px 28px 52px repeat !important;
+	background: transparent !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#quick-add-form {
+	margin-left: -20px !important;
+}
+
+#quick-add-instructions, #quick-add-helptext {
+	color: white !important;
+	margin-bottom: 3px !important;
+	font-size: 12px !important;
+}
+
+#quick-add-close {
+	background-image: url("img/closebox.png") !important;
+	width: 30px !important;
+	height: 30px !important;
+	top: -15px !important;
+	right: -15px !important;
+}
+
+#quick-add-close:active {
+	background-image: url("img/closebox_pressed.png") !important;
+}
+
+#entries .tags-edit {
+	margin: -104px 0 0 -24px !important;
+	background: transparent !important;
+	color: #fff !important;
+	height: auto !important;
+	width: auto !important;
+	border: none !important;
+	-webkit-border-image: url("img/edittags.png") 12 16 28 52 / 12px 16px 28px 52px repeat !important;
+}
+
+#entries .tags-edit input, #entries .tags-edit .help {
+	position: absolute !important;
+	z-index: 100 !important;
+	margin-left: 0px !important;
+}
+
+#entries .tags-edit .help {
+	margin-top: 30px !important;
+}
+
+#entries .tags-edit input {
+	background: rgba(255, 255, 255, 0.6) !important;
+	border: none !important;
+	padding: 1px 10px !important;
+	-webkit-border-radius: 9px !important;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
+}
+
+#entries .tags-edit input:focus {
+	-webkit-box-shadow: 0 0 4px 1px rgb(40, 120, 212) !important;
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(40, 120, 212, 0.7),
+                          0 0 4px 1px rgb(40, 120, 212),
+                    inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
+}
+
+#entries .tags-edit-tags {
+	border: 1px solid !important;
+	background: #fff !important;
+	width: 220px !important;
+	height: 16px !important;
+	margin: 0px 0 0 0px !important;
+}
+
+#entries .help {
+	font-size: 12px !important;
+	color: #fff !important;
+	margin: 6px 0 0 12px !important;
+}
+
+#entries .tags-edit-buttons {
+	margin: 6px 0 0 12px !important;
+}
+
+#entries .tags-edit-buttons {
+	margin: 54px 0 0 90px !important;
+}
+
+#entries .tags-edit-buttons .goog-button-base-inner-box,
+#entries .tags-edit-buttons .goog-button-base-outer-box,
+#entries .tags-edit-buttons .goog-button-base-top-shadow {
+	background: transparent !important;
+	border: none !important;
+}
+
+#entries .tags-edit-buttons .goog-button-body {
+	font-size: 12px !important;
+	padding: 0 8px !important;
+	color: #fff !important;
+}
+
+.tags-edit .goog-button-base-content {
+	padding: 0 !important;
+	font-weight: normal !important;
+}
+
+#entries .tags-edit-buttons .goog-button-body {
+	background: transparent !important;
+	-webkit-border-image: url("img/edittagsbutton.png") 0 12 / 0 12px repeat !important;
+}
+
+#entries .tags-edit-buttons .goog-button-body:hover:active {
+	background: transparent !important;
+	-webkit-border-image: url("img/edittagsbuttonactive.png") 0 12 / 0 12px repeat !important;
+}
+
+/*#nav::before {
+	content: "Google Reader";
+    color: #333;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 0px 3px 21px;
+	margin: 0;
+	background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0,   #fff),
+            color-stop(0.5, #fff),
+            color-stop(0.5, #f8f8f8),
+            color-stop(1,   #fff)
+        );
+	text-shadow: 0px 1px 0px white;
+	position: relative;
+	top: -5px;
+	border-bottom: 1px solid #cacaca;
+}*/
+

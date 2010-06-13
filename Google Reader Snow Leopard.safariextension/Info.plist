@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Vidal van Bergen</string>
+	<key>CFBundleDisplayName</key>
+	<string>Google Reader Snow Leopard</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.vidalvbergen.googlereadersnowleopard</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.96</string>
+	<key>CFBundleVersion</key>
+	<string>0.96</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>GR MOSX Snow Leopard.css</string>
+			<string>GR MOSX Snow Leopard + Delicious.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.google.com/reader/view*</string>
+			<string>https://*.google.com/reader/view*</string>
+			<string>http://*.google.it/reader/view*</string>
+			<string>https://*.google.it/reader/view*</string>
+			<string>http://*.google.fr/reader/view*</string>
+			<string>https://*.google.fr/reader/view*</string>
+			<string>http://*.google.co.uk/reader/view*</string>
+			<string>https://*.google.co.uk/reader/view*</string>
+			<string>http://*.google.nl/reader/view*</string>
+			<string>https://*.google.nl/reader/view*</string>
+			<string>http://*.google.pl/reader/view*</string>
+			<string>https://*.google.pl/reader/view*</string>
+			<string>http://*.google.co.jp/reader/view*</string>
+			<string>https://*.google.co.jp/reader/view*</string>
+			<string>http://*.google.de/reader/view*</string>
+			<string>https://*.google.de/reader/view*</string>
+			<string>http://*.google.se/reader/view*</string>
+			<string>https://*.google.se/reader/view*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Transform Google Reader™ to fit in more with Snow Leopard.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://mariusth.channelwood.org/SafariExtensions/update.plist</string>
+	<key>Website</key>
+	<string>http://mariusth.channelwood.org</string>
+</dict>
+</plist>
