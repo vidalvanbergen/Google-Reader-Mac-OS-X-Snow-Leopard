@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Updates</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vidalvbergen.googlereadersnowleopard</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.96</string>
+			<key>CFBundleVersion</key>
+			<string>0.96</string>
+			<key>Developer Identifier</key>
+			<string>S9963R4FEQ</string>
+			<key>URL</key>
+			<string>http://mariusth.channelwood.org/SafariExtensions/GoogleReaderSnowLeopard/media/archives/GoogleReaderSnowLeopard.safariextz</string>
+		</dict>
+	</array>
+</dict>
+</plist>
