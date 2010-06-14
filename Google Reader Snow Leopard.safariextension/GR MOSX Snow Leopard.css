@@ -1144,6 +1144,11 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	height: 30px !important;
 }
 
+#message-area-outer .message-area-inner {
+    color: white !important;
+    background: rgba(0, 0, 0, .7) !important;
+}
+
 #viewer-details-toggle.details-loading,
 #loading-area .message-area-inner {
 	background: url("img/whitespinner.png") 5px 50% no-repeat !important;
