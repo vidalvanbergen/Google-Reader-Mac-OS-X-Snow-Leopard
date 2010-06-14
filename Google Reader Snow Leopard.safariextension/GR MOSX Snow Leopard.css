@@ -572,6 +572,17 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	display: none !important;
 }
 
+#stream-prefs-menu:after {
+    content: '▾';
+    color: white;
+    border: 1px solid black;
+    padding: 1px 3px 2px 3px;
+    padding-bottom: 2px;
+    background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0, #848484),            color-stop(.48, #494949),            color-stop(.48, #252525),            color-stop(1, #252525)        );
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+}
+
 #search-restrict-button .goog-menu-button .goog-button-base-content {
 	padding: 0px !important;
 }
