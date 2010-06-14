@@ -292,7 +292,7 @@
 
 #trends .unselectable.tab-header,
 #directory-contents .unselectable.tab-header {
-	background: transparent url("img/WhiteGradient.png") repeat-x !important;
+	background: transparent url("img/metalbutton.png") repeat-x !important;
 }
 
 #trends .unselectable.tab-header:active,
@@ -1056,7 +1056,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 
 #entries-up, #entries-down,
 #viewer-details-toggle {
-	background: #eee url("img/WhiteGradient.png") repeat-x !important;
+	background: #eee url("img/metalbutton.png") repeat-x !important;
 	-webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.4) !important;
 }
 
