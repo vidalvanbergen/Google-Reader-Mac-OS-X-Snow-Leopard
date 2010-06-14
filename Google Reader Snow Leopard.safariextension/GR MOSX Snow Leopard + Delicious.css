@@ -86,18 +86,19 @@ background: transparent url("img/toolbtnMulti-AddActive.png") no-repeat !importa
 }
 
 .lhn-hidden #lhn-subscriptions .lhn-section-footer {
-	-webkit-border-bottom-left-radius: 5px !important;
-	-webkit-border-bottom-right-radius: 5px !important;
+	-webkit-border-bottom-left-radius: 8px !important;
+	-webkit-border-bottom-right-radius: 8px !important;
 }
 
 .lhn-hidden #lhn-add-subscription-section span {
-	padding-top: 8px !important;
-	padding-bottom: 12px !important;
+	padding-top: 12px !important;
+	padding-bottom: 11px !important;
 	margin-left: 0px !important;
+	-webkit-border-bottom-left-radius: 8px !important;
 }
 
 .lhn-hidden #sub-tree-subscriptions {
-	margin-left: 33px !important;
+	margin-left: 20px !important;
 }
 
 .lhn-hidden #lhn-add-subscription .goog-button-body {
