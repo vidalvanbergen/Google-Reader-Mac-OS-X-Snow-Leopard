@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.97</string>
+	<string>0.98</string>
 	<key>CFBundleVersion</key>
-	<string>0.97</string>
+	<string>0.98</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -45,6 +45,8 @@
 			<string>https://*.google.de/reader/view*</string>
 			<string>http://*.google.se/reader/view*</string>
 			<string>https://*.google.se/reader/view*</string>
+			<string>http://*.google.be/reader/view*</string>
+			<string>https://*.google.be/reader/view*</string>
 		</array>
 	</dict>
 	<key>Description</key>
