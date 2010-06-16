@@ -422,3 +422,12 @@ color: transparent !important;}*/
 	border-bottom: 1px solid #cacaca;
 }*/
 
+
+.section-menubutton { background: transparent url("img/gear3.png") no-repeat center center !important; }
+.section-menubutton:active { background: transparent url("img/gear3active.png") no-repeat center center !important; }
+.section-minimize { background: transparent url("img/miniminus.png") no-repeat center center !important ;}
+.section-minimize:active { background: transparent url("img/miniminusactive.png") no-repeat center center !important ;}
+.section-minimized .section-minimize { background: transparent url("img/miniplus.png") no-repeat center center !important ;}
+.section-minimized .section-minimize:active { background: transparent url("img/miniplusactive.png") no-repeat center center !important ;}
+
+#lhn-friends-indicator { background: transparent url("img/friendscomment.png") no-repeat center center !important; padding: 0 1px !important;}
