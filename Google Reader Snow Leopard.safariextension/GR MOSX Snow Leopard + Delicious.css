@@ -237,6 +237,15 @@ color: transparent !important;}*/
 	background: url("img/friendscomment.png") 0 1px no-repeat !important;
 }
 
+#lhn-friends-indicator {
+	background: transparent url("img/friendscomment.png") no-repeat center center !important;
+	padding: 0 1px !important;
+}
+
+#friends-tree .lhn-section-secondary {
+    min-height: 160px !important;
+}
+
 #friends-tree.scroll-tree li#friends-tree-item-1-main a {
 	padding-left: 39px !important;
 }
@@ -429,5 +438,3 @@ color: transparent !important;}*/
 .section-minimize:active { background: transparent url("img/miniminusactive.png") no-repeat center center !important ;}
 .section-minimized .section-minimize { background: transparent url("img/miniplus.png") no-repeat center center !important ;}
 .section-minimized .section-minimize:active { background: transparent url("img/miniplusactive.png") no-repeat center center !important ;}
-
-#lhn-friends-indicator { background: transparent url("img/friendscomment.png") no-repeat center center !important; padding: 0 1px !important;}

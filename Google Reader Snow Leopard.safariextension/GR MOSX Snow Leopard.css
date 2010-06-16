@@ -1253,3 +1253,6 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	line-height: 1.5em !important;
 	top: 1px !important;
 }
+#lhn-selectors.section-minimized .selector {
+    padding-left: 24px !important;
+}
