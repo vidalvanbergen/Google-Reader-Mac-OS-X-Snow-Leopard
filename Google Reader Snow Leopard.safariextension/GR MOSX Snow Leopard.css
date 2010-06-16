@@ -1158,7 +1158,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	height: 30px !important;
 }
 
-#message-area-outer .message-area-inner {
+.info-message .message-area-inner, .progress-message .message-area-inner {
     color: white !important;
     background: rgba(0, 0, 0, .7) !important;
 }
