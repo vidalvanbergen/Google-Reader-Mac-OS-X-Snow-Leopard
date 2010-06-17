@@ -95,9 +95,10 @@ background: transparent url("img/toolbtnMulti-AddActive.png") no-repeat !importa
 }
 
 .lhn-hidden #lhn-add-subscription-section span {
-	padding-top: 12px !important;
-	padding-bottom: 11px !important;
-	margin-left: 0px !important;
+	/*padding-top: 12px !important;
+	padding-bottom: 11px !important;*/
+	margin-left: 1px !important;
+	margin-bottom: -1px !important;
 	-webkit-border-bottom-left-radius: 8px !important;
 }
 

@@ -2,6 +2,10 @@ body {
     font-family: Helvetica, Arial, sans-serif !important;
 }
 
+#chrome {
+    border-color: #8B8B8B !important;
+}
+
 .banner {
 	overflow: hidden !important;
 }
@@ -395,6 +399,7 @@ img.trends-sorting-unsubscribe {
 	z-index: 0 !important;
 	top: 0px !important;
 	margin-left: 0px !important;
+	background: #d5dde4 !important;
 }
 
 #chrome-view-links {
