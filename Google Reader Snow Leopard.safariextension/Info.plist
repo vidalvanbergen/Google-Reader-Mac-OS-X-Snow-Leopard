@@ -66,6 +66,6 @@
 	<key>Update Manifest URL</key>
 	<string>http://mariusth.channelwood.org/SafariExtensions/update.plist</string>
 	<key>Website</key>
-	<string>http://mariusth.channelwood.org</string>
+	<string>http://mariusth.channelwood.org/SafariExtensions/</string>
 </dict>
 </plist>

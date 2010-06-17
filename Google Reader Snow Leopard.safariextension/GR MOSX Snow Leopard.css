@@ -1166,6 +1166,10 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
     color: white !important;
     background: rgba(0, 0, 0, .7) !important;
 }
+.error-message .message-area-inner {
+	color: white !Important;
+	background: rgba(255, 0, 0, 0.7) !important;
+}
 
 #viewer-details-toggle.details-loading,
 #loading-area .message-area-inner {
@@ -1262,3 +1266,25 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 }
 
 #overview .overview-section-header { text-shadow: 0 1px 0 rgba(255, 255, 255, .8); }
+
+#viewer-translated-by { color: white; }
+#viewer-translated-by span.link {
+	color: white !important;
+	text-decoration: none !important;
+	
+	border: 1px solid black;
+	-webkit-border-radius: 3px;
+	padding: 2px 5px;
+	
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+
+    background:        -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #8d8d8d),            color-stop(0.5, #616161),            color-stop(0.5, #323232),            color-stop(1,   #323232)        );
+}
+
+#viewer-translated-by span.link:active {
+	background:        -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #636363),            color-stop(0.5, #2d2d2d),            color-stop(0.5, #000000),            color-stop(1,   #000000)        );
+}
+
+#viewer-header span.link, #viewer-header .goog-button-body {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .7);
+}
