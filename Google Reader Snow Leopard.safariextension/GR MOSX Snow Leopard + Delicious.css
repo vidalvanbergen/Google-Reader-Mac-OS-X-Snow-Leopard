@@ -487,6 +487,5 @@ color: transparent !important;}*/
 /*#lhn-subscriptions-minimize {background: transparent url("img/miniminus.png") no-repeat center center !important; left: auto !important; right: 20px !important;}
 .section-minimized #lhn-subscriptions-minimize {}*/
 
-#settings-frame {
-    top: 4px !important;
-}
+#settings-frame { top: 4px !important; }
+div.keyboard-help-banner { top: 10px !important; }
