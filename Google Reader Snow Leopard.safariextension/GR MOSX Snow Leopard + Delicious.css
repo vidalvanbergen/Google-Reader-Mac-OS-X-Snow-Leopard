@@ -235,7 +235,6 @@ color: transparent !important;}*/
 	background: #fff;
 	padding: 0 !important;
 	margin: 0 !important;
-	margin-left: ;
 }
 
 #friends-tree-item-1-link {
@@ -256,6 +255,17 @@ color: transparent !important;}*/
 	font-weight: normal !important;
 }
 
+#recommendations-tree ul a.link, #recommendations-tree div.toggle {
+    padding-left: 39px !important;
+}
+
+#recommendations-tree #recs-tree-item-3-main a.link,
+#recommendations-tree #recs-tree-item-4-main a.link,
+#recommendations-tree #recs-tree-item-5-main a.link,
+#recommendations-tree #recs-tree-item-6-main a {
+    padding-left: 50px !important;
+}
+
 #friends-tree .friend-tree-comments-icon {
 	background: url("img/friendscomment.png") 0 1px no-repeat !important;
 }
@@ -269,7 +279,12 @@ color: transparent !important;}*/
     min-height: 160px !important;
 }
 
-#friends-tree.scroll-tree li#friends-tree-item-1-main a {
+#friends-tree .lhn-section-secondary a.link {
+    
+}
+
+#friends-tree.scroll-tree li#friends-tree-item-1-main a,
+#friends-tree .lhn-section-secondary a.link {
 	padding-left: 39px !important;
 }
 
@@ -457,7 +472,16 @@ color: transparent !important;}*/
 
 .section-menubutton { background: transparent url("img/gear3.png") no-repeat center center !important; }
 .section-menubutton:active { background: transparent url("img/gear3active.png") no-repeat center center !important; }
-.section-minimize { background: transparent url("img/miniminus.png") no-repeat center center !important ;}
+/*.section-minimize { background: transparent url("img/miniminus.png") no-repeat center center !important ;}
 .section-minimize:active { background: transparent url("img/miniminusactive.png") no-repeat center center !important ;}
 .section-minimized .section-minimize { background: transparent url("img/miniplus.png") no-repeat center center !important ;}
-.section-minimized .section-minimize:active { background: transparent url("img/miniplusactive.png") no-repeat center center !important ;}
+.section-minimized .section-minimize:active { background: transparent url("img/miniplusactive.png") no-repeat center center !important ;}*/
+
+/* Plus/Minus or Arrows? */
+.section-minimize { background: transparent url("img/arrowdown.png") no-repeat center center !important; left: 6px !important; }
+.section-minimize:active { background: transparent url("img/arrowdown.png") no-repeat center center !important; left: 6px !important; }
+.section-minimized .section-minimize { background: transparent url("img/arrowright.png") no-repeat center center !important; left: 6px !important; }
+.section-minimized .section-minimize:active { background: transparent url("img/arrowright.png") no-repeat center center !important; left: 6px !important; }
+
+#lhn-subscriptions-minimize {background: transparent url("img/miniminus.png") no-repeat center center !important; left: auto !important; right: 20px !important;}
+.section-minimized #lhn-subscriptions-minimize {}
