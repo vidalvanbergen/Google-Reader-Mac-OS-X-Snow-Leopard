@@ -14,7 +14,7 @@ body {
 	border-top: 0px !important;
 }
 
-.goog-menu,
+/*.goog-menu,
 #stream-prefs-menu-contents {
 	background: rgba(255, 255, 255, 0.93) !important;
 	border: 1px solid #ccc  !important;
@@ -23,6 +23,23 @@ body {
 	padding: 4px !important;
 	margin: 0px 0 0 0 !important;
 	z-index: 1000 !important;
+}*/
+
+.goog-menu,
+#stream-prefs-menu-contents {
+	background: rgba(0, 0, 0, 0.85) !important;
+	border: 2px solid white !important;
+	-webkit-border-radius: 8px !important;
+	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3) !important;
+	padding: 4px !important;
+	margin:  0px !important;
+	z-index: 1000 !important;
+	color: white !important;
+}
+.goog-menu div,
+#stream-prefs-menu-contents div {
+    color: white !important;
+	padding: 0 10px !important;
 }
 
 #stream-prefs-menu-contents {
@@ -36,19 +53,23 @@ body {
 #stream-prefs-menu-contents .menu-item.selected,
 .goog-option-selected .goog-menuitem-checkbox,
 #stream-folder-chooser .chooser-item-selected {
-	background-image: url("img/check.png") !important;
+    background: transparent url("img/checkwhite.png") no-repeat 5px 3px !important;
 }
 
-#stream-prefs-menu-contents .menu-item:hover.selected,
+/*#stream-prefs-menu-contents .menu-item:hover.selected,
 .goog-option-selected:hover .goog-menuitem-checkbox,
 #stream-folder-chooser .chooser-item-selected:hover {
-	background-image: url("img/checkwhite.png") !important;
-}
+    background: transparent url("img/checkwhite.png") no-repeat 5px 3px !important;}
+}*/
+
+.goog-submenu-arrow { right: 10px !important; }
+.goog-menuseparator { border-color: rgba(255, 255, 255, .4) !important; }
 
 .menu-item:hover,
 .goog-menuitem:hover, .goog-menuitem-highlight,
 #stream-folder-chooser .chooser-item:hover {
 	background-color: #3366CC !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5892e4), to(#1750bc)) !important;
 	color: #fff !important;
 }
 
