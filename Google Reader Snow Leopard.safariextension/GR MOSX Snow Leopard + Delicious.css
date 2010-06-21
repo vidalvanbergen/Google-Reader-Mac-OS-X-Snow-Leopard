@@ -484,8 +484,25 @@ color: transparent !important;}*/
 .section-minimized .section-minimize { background: transparent url("img/arrowright.png") no-repeat center center !important; left: 6px !important; }
 .section-minimized .section-minimize:active { background: transparent url("img/arrowright.png") no-repeat center center !important; left: 6px !important; }
 
-/*#lhn-subscriptions-minimize {background: transparent url("img/miniminus.png") no-repeat center center !important; left: auto !important; right: 20px !important;}
-.section-minimized #lhn-subscriptions-minimize {}*/
+/* @group Give Home and subscription to use minus/plus */
+
+#lhn-subscriptions .section-minimize,
+#lhn-selectors-minimize.section-minimize
+{ background: transparent url("img/miniminus.png") no-repeat center center !important; left: auto !important;}
+
+#lhn-subscriptions .section-minimize:active,
+#lhn-selectors-minimize.section-minimize:active
+{ background: transparent url("img/miniminusactive.png") no-repeat center center !important;}
+
+#lhn-subscriptions.section-minimized .section-minimize,
+.section-minimized #lhn-selectors-minimize.section-minimize
+{ background: transparent url("img/miniplus.png") no-repeat center center !important;}
+
+#lhn-subscriptions.section-minimized .section-minimize:active,
+.section-minimized #lhn-selectors-minimize.section-minimize
+{ background: transparent url("img/miniplusactive.png") no-repeat center center !important ;}
+
+/* @end Give Home and subscription to use minus/plus */
 
 #settings-frame { top: 4px !important; }
 div.keyboard-help-banner { top: 10px !important; }
