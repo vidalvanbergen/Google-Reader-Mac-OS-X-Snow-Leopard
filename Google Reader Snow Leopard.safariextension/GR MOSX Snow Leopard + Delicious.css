@@ -250,8 +250,9 @@ color: transparent !important;}*/
 }
 
 #recs-tree-item-0-link .name-text {
-	background: url("img/minicon-explore.png") 0 -1px no-repeat !important;
+	background: url("img/minicon-explore2.png") 0 0px no-repeat !important;
 	padding-left: 20px !important;
+	padding-bottom: 2px !important;
 	margin-left: 0px !important;
 	font-weight: normal !important;
 }
