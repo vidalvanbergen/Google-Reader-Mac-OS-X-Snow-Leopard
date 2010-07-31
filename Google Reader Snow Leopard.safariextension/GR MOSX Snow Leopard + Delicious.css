@@ -232,10 +232,23 @@ color: transparent !important;}*/
 	margin-left: 0px !important;
 }
 
-#friends-tree-container .lhn-section-footer {
+#friends-tree-container .lhn-section-footer, #lhn-recommendations .lhn-section-footer {
 	background: #fff;
 	padding: 0 !important;
 	margin: 0 !important;
+	
+	height: 24px !important;
+	margin: 0 !important;
+	padding: 3px 17px 0px !important;
+
+    background: #D1D7E2 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2F2F2), color-stop(0.4, #F2F2F2), color-stop(0.4, #E6E6E6), to(#E6E6E6)) !important;
+	border-color: #CACACA !important;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	
+	color: slateGray !important;
+	text-shadow: 0 1px 0 white;
+	font-size: 90% !important;
 }
 
 #friends-tree-item-1-link {
@@ -507,3 +520,15 @@ color: transparent !important;}*/
 
 #settings-frame { top: 4px !important; }
 div.keyboard-help-banner { top: 10px !important; }
+
+.friends-tree-notification-info {
+	height: 24px !important;
+	margin: 0 !important;
+	padding: 3px 17px 0px !important;
+
+    background: #D1D7E2 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2F2F2), color-stop(0.4, #F2F2F2), color-stop(0.4, #E6E6E6), to(#E6E6E6)) !important;
+	border-color: #CACACA !important;
+	
+	color: slateGray !important;
+	text-shadow: 0 1px 0 white;
+}
