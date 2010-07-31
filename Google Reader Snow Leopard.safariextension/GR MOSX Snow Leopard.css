@@ -1128,6 +1128,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 #entries-status {
 	top: 3px !important;
 	right: 100px !important;
+	padding-right: 10px;
 	color: #fff !important;
 	font-size: 12px !important;
 	text-shadow: #363636 0 1px !important;
