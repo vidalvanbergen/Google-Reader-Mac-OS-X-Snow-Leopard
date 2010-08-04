@@ -11,7 +11,7 @@ How to Install
 
 2. Double click the .safariextz file to install in Safari 5 and follow the prompts
 
-
+3. There is no step 3, enjoy!
 
 CREDITS
 -------
