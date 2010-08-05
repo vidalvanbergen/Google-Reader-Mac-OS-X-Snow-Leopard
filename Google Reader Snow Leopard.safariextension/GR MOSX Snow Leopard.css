@@ -923,10 +923,6 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	margin-top: 4px !important;
 }
 
-#guser u, #guser small {
-	display: none !important;
-}
-
 #settings-link, #help-link, #sign-out, #guser a {
 	width: 26px !important;
 	height: 23px !important;
@@ -934,10 +930,6 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	float: left !important;
 	text-indent: -9999px !important;
 	margin: -1px -1px 0 0 !important
-}
-
-#email-address, #guser b.gb4 {
-	display: none !important
 }
 
 #guser a.gb3 {
@@ -967,7 +959,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	background-image: url("img/toolbtn-signoutactive.png") !important;
 }
 
-#gbs, .gbm {
+#gbs, #gbg {
 	visibility: visible !important;
 	margin: 0px !important;
 	padding: 0px !important;
@@ -986,37 +978,62 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	position: relative !important;
 }
 
-#guser a[href*="gmail"].gb3 {
+#guser b a.gb3 {
+	position: absolute !important;
+	top: 3px !important;
+	right: 445px !important;
+	
 	display: block !important;
-    text-indent: 0px !important;
     height: 16px !important;
-    width: 150px !important;
+    width: 250px !important;
     padding: 2px 4px;
-    color: black !important;
-    background-image: none !important;
-    text-shadow: 0 1px 0 rgba(255,255,255, 0.6);
-	position: fixed !important;
-	top: 6px !important;
-	right: 410px !important;
+    
     font-size: 12px !important;
+    text-indent: 0px !important;
+    color: black !important;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.6);
+    background-image: none !important;
+}
+
+#guser b a.gb3:active {
+    background-image: none !important;
 }
 
 #gb2 {
-    /*display: block !important;*/
-    text-indent: 0px !important;
-    /*height: 16px !important;
-    width: 100px !important;*/
-    background: red !important;
-    right: 500px !important;
-    position: relative !important;
-    display: none !important;
+    width: 220px;
+    padding: 5px;
+    overflow: hidden;
+    right: 425px !important;
+	background: rgba(0, 0, 0, 0.85) !important;
+	border: 2px solid white !important;
+	-webkit-border-radius: 8px !important;
+	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3) !important;
+	margin:  0px !important;
+	z-index: 1000 !important;
+    
 }
 
-#gb2 a.gb2 {
-    /*display: inline-block !important;*/
-    /*width: 16px !important; height: 16px !important;*/
-    background: green;
-    outline: 1px solid yellow;
+#gb2 a.gb2, #gb2 div.gb2 b {
+    display: block !important;
+	height: 16px !important;
+    width: 220px !important;
+    float: left !important;
+    font-size: 12px;
+    color: white !important;
+    text-indent: 0px !important;
+    padding: 0 14px !important;
+}
+
+#gb2 div.gb2 b { background: transparent url("img/checkwhite.png") no-repeat 1px left !important;  }
+#gb2 div.gb2 b:hover { cursor: default; }
+
+#gb2 .gb2 .gbd {
+    display: block !important;
+	height: 1px !important;
+	margin: 3px 0 !important;
+    width: 220px !important;
+    float: left !important;
+    border-top: 1px solid white !important;
 }
 
 #gbs a:hover, .gbm a:hover {
