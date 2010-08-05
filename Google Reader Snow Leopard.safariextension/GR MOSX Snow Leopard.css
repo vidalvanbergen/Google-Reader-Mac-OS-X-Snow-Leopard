@@ -986,15 +986,48 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	position: relative !important;
 }
 
+#guser a[href*="gmail"].gb3 {
+	display: block !important;
+    text-indent: 0px !important;
+    height: 16px !important;
+    width: 150px !important;
+    padding: 2px 4px;
+    color: black !important;
+    background-image: none !important;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.6);
+	position: fixed !important;
+	top: 6px !important;
+	right: 410px !important;
+    font-size: 12px !important;
+}
+
+#gb2 {
+    /*display: block !important;*/
+    text-indent: 0px !important;
+    /*height: 16px !important;
+    width: 100px !important;*/
+    background: red !important;
+    right: 500px !important;
+    position: relative !important;
+    display: none !important;
+}
+
+#gb2 a.gb2 {
+    /*display: inline-block !important;*/
+    /*width: 16px !important; height: 16px !important;*/
+    background: green;
+    outline: 1px solid yellow;
+}
+
 #gbs a:hover, .gbm a:hover {
 	background-color: transparent !important;
 }
 
-.gbm .gb2:last-child {
+#gbg .gb2:last-child {
 	background-image: url('img/toolbtn-user.png') !important;
 }
 
-.gbm .gb2:last-child:active {
+#gbg .gb2:last-child:active {
 	background-image: url('img/toolbtn-useractive.png') !important;
 }
 
