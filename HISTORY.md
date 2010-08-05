@@ -1,7 +1,8 @@
 v1.2 - 5 Aug, 2010
 [New] Added support for the new Google Multi-account switching. 
 [New] Moved quick feed add button to the right of the dialog.
-[Fix] Positioned item count a bit to the left. (German reader had issues with it, dropping partially below the 'details' button.)
+[New] Stylized confirmation dialog.
+[Fix] Positioned item count a bit to the left. (German reader had issues, dropping partially below the 'details' button.)
 [Fix] Quick for English UK users not being able to see the 'Help' button.
 [Fix] People you follow section set back to use auto-height.
 

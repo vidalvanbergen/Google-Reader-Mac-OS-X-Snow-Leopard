@@ -1013,7 +1013,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
     
 }
 
-#gb2 a.gb2, #gb2 div.gb2 b {
+#gb2 a.gb2, #gb2 .gb2 b {
     display: block !important;
 	height: 16px !important;
     width: 220px !important;
@@ -1024,8 +1024,13 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
     padding: 0 14px !important;
 }
 
-#gb2 div.gb2 b { background: transparent url("img/checkwhite.png") no-repeat 1px left !important;  }
-#gb2 div.gb2 b:hover { cursor: default; }
+#gb2 .gb2:hover {
+	background-color: #3366CC !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5892e4), to(#1750bc)) !important;
+	color: #fff !important;
+}
+#gb2 .gb2 b { background: transparent url("img/checkwhite.png") no-repeat 1px left !important;  }
+#gb2 .gb2 b:hover { cursor: default; }
 
 #gb2 .gb2 .gbd {
     display: block !important;
