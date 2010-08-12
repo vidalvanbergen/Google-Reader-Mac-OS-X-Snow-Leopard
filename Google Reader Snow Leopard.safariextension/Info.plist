@@ -30,6 +30,8 @@
 			<string>http://*.google.com/reader/view*</string>
 			<string>https://*.google.com/reader/view*</string>
 			<string>http://*.google.it/reader/view*</string>
+			<string>http://*.google.ca/reader/view*</string>
+			<string>https://*.google.ca/reader/view*</string>
 			<string>https://*.google.it/reader/view*</string>
 			<string>http://*.google.fr/reader/view*</string>
 			<string>https://*.google.fr/reader/view*</string>
