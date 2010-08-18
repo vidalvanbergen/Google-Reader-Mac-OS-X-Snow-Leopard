@@ -1,3 +1,11 @@
+v1.3
+[New] Stylized the 'you are following ## people' dialog.
+[New] Stylized the 'People search' results page.
+
+v1.2.1
+[New] Added support for Canada (.ca).
+[New] Added support for Australia (.com.au).
+
 v1.2 - 5 Aug, 2010
 [New] Added support for the new Google Multi-account switching. 
 [New] Moved quick feed add button to the right of the dialog.
