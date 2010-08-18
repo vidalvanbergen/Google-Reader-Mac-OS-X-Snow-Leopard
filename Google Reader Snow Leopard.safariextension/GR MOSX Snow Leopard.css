@@ -945,6 +945,10 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	background-image: url("img/toolbtn-settings.png") !important;
 }
 
+#guser b.gb4 {
+    display: none !important;
+}
+
 #guser a.gb3:active {
 	background-image: url("img/toolbtn-settingsactive.png") !important;
 }
