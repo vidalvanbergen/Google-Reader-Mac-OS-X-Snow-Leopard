@@ -188,7 +188,8 @@ body {
 	border: none !important;
 }
 
-#home .overview-segment {
+#home .overview-segment,
+.profile-search-result {
 	border: 1px solid rgba(0, 0, 0, 0.3) !important;
 	background: #b3bccd !important;
 	padding: 1em !important;
@@ -200,12 +201,19 @@ body {
 
 #home .overview-segment:hover,
 #rec-preview:hover, #recent-activity:hover, #tips:hover,
-#team-messages:hover {
+#team-messages:hover,
+.profile-search-result:hover {
 	background-color: #ccd7ea !important;
 }
 
+#profile-search-results-header,
+.profile-search-result {
+    margin: 20px 20px 0 !important;
+}
+
 #rec-preview, #recent-activity, #tips,
-#team-messages {
+#team-messages,
+#profile-search-results-header {
 	border: 1px solid rgba(0, 0, 0, 0.3) !important;
 	background: #9aa7ba !important;
 	padding: 1em !important;
