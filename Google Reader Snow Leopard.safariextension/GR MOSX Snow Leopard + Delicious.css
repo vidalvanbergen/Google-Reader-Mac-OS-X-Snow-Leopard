@@ -353,7 +353,7 @@ color: transparent !important;}*/
 	font-size: 12px !important;
 }
 
-#quick-add-close {
+#quick-add-close, .fr-modal-dialog-title-close {
 	background-image: url("img/closebox.png") !important;
 	width: 30px !important;
 	height: 30px !important;
@@ -361,7 +361,7 @@ color: transparent !important;}*/
 	right: -15px !important;
 }
 
-#quick-add-close:active {
+#quick-add-close:active, .fr-modal-dialog-title-close:active {
 	background-image: url("img/closebox_pressed.png") !important;
 }
 
@@ -385,15 +385,17 @@ color: transparent !important;}*/
 	margin-top: 30px !important;
 }
 
-#entries .tags-edit input {
+#entries .tags-edit input,
+.fr-modal-dialog input {
 	border: none !important;
-	padding: 1px 10px !important;
+	padding: 3px 10px !important;
 	-webkit-border-radius: 9px !important;
 	border: 0 none !important;
 	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7) !important;
 }
 
-#entries .tags-edit input:focus {
+#entries .tags-edit input:focus,
+.fr-modal-dialog input:focus {
 	outline: 0 none;
 	-webkit-box-shadow: inset 0 0 2px 1px rgba(40, 120, 212, 0.7),
                               0 0 4px 1px rgb(40, 120, 212),
@@ -424,12 +426,17 @@ color: transparent !important;}*/
 
 #entries .tags-edit-buttons .goog-button-base-inner-box,
 #entries .tags-edit-buttons .goog-button-base-outer-box,
-#entries .tags-edit-buttons .goog-button-base-top-shadow {
+#entries .tags-edit-buttons .goog-button-base-top-shadow,
+
+.fr-modal-dialog .goog-button-base-inner-box,
+.fr-modal-dialog .goog-button-base-outer-box,
+.fr-modal-dialog .goog-button-base-top-shadow {
 	background: transparent !important;
 	border: none !important;
 }
 
-#entries .tags-edit-buttons .goog-button-body {
+#entries .tags-edit-buttons .goog-button-body,
+.fr-modal-dialog .goog-button-body {
 	font-size: 12px !important;
 	padding: 0 8px !important;
 	color: #fff !important;
@@ -440,7 +447,8 @@ color: transparent !important;}*/
 	font-weight: normal !important;
 }
 
-#entries .tags-edit-buttons .goog-button-body {
+#entries .tags-edit-buttons .goog-button-body,
+.fr-modal-dialog .goog-button-body {
 	background: transparent !important;
 	color: white !important;
 	background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #545455),            color-stop(1, #252525)        ) !important;
@@ -452,7 +460,8 @@ color: transparent !important;}*/
 	-webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, .8);
 }
 
-#entries .tags-edit-buttons .goog-button-body:hover:active {
+#entries .tags-edit-buttons .goog-button-body:hover:active,
+.fr-modal-dialog .goog-button-body:active {
 	background: transparent !important;
     background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0, #9f9ea0),            color-stop(1, #777777)        ) !important;
 }
@@ -562,4 +571,28 @@ div.keyboard-help-banner { top: 10px !important; }
 .fr-modal-dialog-buttons button:active {
 	background: transparent !important;
     background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0, #9f9ea0),            color-stop(1, #777777)        ) !important;
+}
+
+.fr-modal-dialog-title {
+    background-color: transparent !important;
+    color: white !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.friends-table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+.friends-dialog-content .extra-tasks {
+    border-top: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+.fr-modal-dialog .link, .fr-modal-dialog a {
+    color: #66F !important;
+}
+
+.fr-modal-dialog-title .instruction,
+.fr-modal-dialog-content .email,
+.fr-modal-dialog-content .pending-following-group {
+    color:  #AAA !important;
 }
