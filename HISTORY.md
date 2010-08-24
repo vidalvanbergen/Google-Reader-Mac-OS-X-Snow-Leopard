@@ -1,3 +1,8 @@
+v1.3.1
+[New] Added support for Korea. (.co.kr)
+[New] Added support for Spanish. (.es)
+[New] Added support for Taiwan. (.com.tw)
+
 v1.3
 [New] Stylized the 'you are following ## people' dialog.
 [New] Stylized the 'People search' results page.

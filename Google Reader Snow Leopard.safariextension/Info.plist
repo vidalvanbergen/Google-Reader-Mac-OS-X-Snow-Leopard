@@ -53,6 +53,12 @@
 			<string>https://*.google.com.au/reader/view*</string>
 			<string>http://*.google.dk/reader/view*</string>
 			<string>https://*.google.dk/reader/view*</string>
+			<string>http://*.google.es/reader/view*</string>
+			<string>https://*.google.es/reader/view*</string>
+			<string>http://*.google.co.kr/reader/view*</string>
+			<string>https://*.google.co.kr/reader/view*</string>
+			<string>http://*.google.com.tw/reader/view*</string>
+			<string>https://*.google.com.tw/reader/view*</string>
 		</array>
 	</dict>
 	<key>Description</key>
