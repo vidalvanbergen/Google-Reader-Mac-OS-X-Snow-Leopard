@@ -67,6 +67,8 @@
 			<string>https://*.google.hu/reader/view*</string>
 			<string>http://*.google.co.nz/reader/view*</string>
 			<string>https://*.google.co.nz/reader/view*</string>
+			<string>http://*.google.ch/reader/view*</string>
+			<string>https://*.google.ch/reader/view*</string>
 		</array>
 	</dict>
 	<key>Description</key>
