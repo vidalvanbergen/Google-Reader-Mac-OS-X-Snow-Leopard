@@ -188,7 +188,7 @@ body {
 	border: none !important;
 }
 
-#home .overview-segment,
+#home .overview-segment, .feed-result-row,
 .profile-search-result {
 	border: 1px solid rgba(0, 0, 0, 0.3) !important;
 	background: #b3bccd !important;
@@ -199,14 +199,14 @@ body {
 	-webkit-transition: background-color .25s ease-in-out;
 }
 
-#home .overview-segment:hover,
+#home .overview-segment:hover, .feed-result-row:hover,
 #rec-preview:hover, #recent-activity:hover, #tips:hover,
 #team-messages:hover,
 .profile-search-result:hover {
 	background-color: #ccd7ea !important;
 }
 
-#profile-search-results-header,
+#profile-search-results-header, .feed-result-row, #directory-search-results,
 .profile-search-result {
     margin: 20px 20px 0 !important;
 }
@@ -621,7 +621,15 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
     border: 1px solid black;
     padding: 1px 3px 2px 3px;
     padding-bottom: 2px;
-    background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0, #848484),            color-stop(.48, #494949),            color-stop(.48, #252525),            color-stop(1, #252525)        );
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #848484),
+            color-stop(.48, #494949),
+            color-stop(.48, #252525),
+            color-stop(1, #252525)
+        );
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
 }
@@ -1331,7 +1339,13 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 
 #quick-add-btn .goog-button-base-content {
 	color: white !important;
-	background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #545455),            color-stop(1, #252525)        ) !important;
+	background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0,   #545455),
+            color-stop(1, #252525)
+        ) !important;
 	border: 0 none !important;
 	padding: 2px 18px !Important;
 	font-size: 12px;
@@ -1341,7 +1355,13 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 }
 
 #quick-add-btn .goog-button-base-content:active {
-    background: -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0, #9f9ea0),            color-stop(1, #777777)        ) !important;
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #9f9ea0),
+            color-stop(1, #777777)
+        ) !important;
 }
 
 #quick-add-btn .goog-button-base-inner-box {
@@ -1383,11 +1403,29 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	
 	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
 
-    background:        -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #8d8d8d),            color-stop(0.5, #616161),            color-stop(0.5, #323232),            color-stop(1,   #323232)        );
+    background:
+        -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0,   #8d8d8d),
+            color-stop(0.5, #616161),
+            color-stop(0.5, #323232),
+            color-stop(1,   #323232)
+        );
 }
 
 #viewer-translated-by span.link:active {
-	background:        -webkit-gradient(            linear,            left top,            left bottom,            color-stop(0,   #636363),            color-stop(0.5, #2d2d2d),            color-stop(0.5, #000000),            color-stop(1,   #000000)        );
+	background:
+        -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0,   #636363),
+            color-stop(0.5, #2d2d2d),
+            color-stop(0.5, #000000),
+            color-stop(1,   #000000)
+        );
 }
 
 #viewer-header span.link, #viewer-header .goog-button-body {
