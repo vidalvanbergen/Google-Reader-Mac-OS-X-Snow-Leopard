@@ -5,6 +5,8 @@ v1.4
 [New] Added support for Russia. (.ru)
 [New] Added support for Hungaria. (.hu)
 [New] Added support for Mexico. (.com.mx)
+[New] Added support for China (.ch)
+[New] Some changes to search results.
 
 v1.3
 [New] Stylized the 'you are following ## people' dialog.
