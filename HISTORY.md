@@ -1,4 +1,4 @@
-v1.3.1
+v1.4
 [New] Added support for Korea. (.co.kr)
 [New] Added support for Spain. (.es)
 [New] Added support for Taiwan. (.com.tw)
