@@ -1015,6 +1015,10 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
     background-image: none !important;
 }
 
+a.gb3 #gbs {
+	display: none !important;
+}
+
 #guser b a.gb3:active {
     background-image: none !important;
 }

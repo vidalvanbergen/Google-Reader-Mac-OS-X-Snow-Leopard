@@ -1,3 +1,6 @@
+v1.4.1
+[Fix] Fixed a bug where an unseen object related to the multi-account button/link would obscure certain buttons.
+
 v1.4
 [New] Added support for Korea. (.co.kr)
 [New] Added support for Spain. (.es)
