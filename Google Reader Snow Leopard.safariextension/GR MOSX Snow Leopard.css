@@ -10,9 +10,57 @@ body {
 	overflow: hidden !important;
 }
 
-#logo-container, #gbar {
+#logo-container {
 	display: none !important;
 }
+
+.lhn-hidden #gbar { display: none; }
+
+#gbar {
+  z-index: 20 !important;
+  position: fixed !important;
+  top: 0;
+  line-height: 27px;
+  height: 27px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important; }
+  #gbar a.gb1, #gbar a.gb3, #gbar b {
+    display: inline-block !important;
+    width: 27px !important;
+    height: 23px !important;
+    float: left;
+    overflow: hidden !important;
+    margin: 3px 0 0 0 !important;
+    text-indent: -999999px;
+    background: transparent url('img/gbar-apps.png') no-repeat left top; }
+  #gbar a.gb1[href*='mail'] { width: 28px !important; }
+  #gbar a.gb1[href*="mail"]:active {
+    width: 28px !important;
+    background-position: bottom left; }
+  #gbar b {
+    width: 27px !important;
+    background-position: bottom -82px; }
+  #gbar a.gb1[href*='calendar'] {
+    background-position: top -28px; }
+    #gbar a.gb1[href*='calendar']:active {
+      background-position: bottom -28px; }
+  #gbar a.gb1[href*='docs'] {
+    background-position: top -55px; }
+    #gbar a.gb1[href*='docs']:active {
+      background-position: bottom -55px; }
+  #gbar a.gb1[href*='reader'] {
+    background-position: top -82px; }
+    #gbar a.gb1[href*='reader']:active {
+      background-position: bottom -82px; }
+  #gbar a.gb1[href*='web'] {
+    background-position: top -109px; }
+    #gbar a.gb1[href*='web']:active {
+      background-position: bottom -109px; }
+  #gbar a.gb3 {
+    background-position: top -136px; }
+    #gbar a.gb3:active {
+      background-position: bottom -136px; }
+
 
 .gbh {
 	border-top: 0px !important;
@@ -30,7 +78,7 @@ body {
 }*/
 
 .goog-menu,
-#stream-prefs-menu-contents {
+#stream-prefs-menu-contents, #gbi {
 	background: rgba(0, 0, 0, 0.85) !important;
 	border: 2px solid white !important;
 	-webkit-border-radius: 8px !important;
@@ -421,6 +469,15 @@ img.trends-sorting-unsubscribe {
 	padding: 2px 6px  !important;
 	height: 23px !important;
 	margin: 0 !important;
+	
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+	right: 0 !important;
+}
+
+#chrome-viewer-container {
+  margin-top: 29px !important;
 }
 
 #chrome-title {
@@ -428,7 +485,9 @@ img.trends-sorting-unsubscribe {
 	font-size: 14px !important;
 	line-height: 24px !important;
 	text-shadow: #ddd 0 1px !important;
-	margin-left: 3px !important;
+	margin-left: 263px !important;
+	display: block !important;
+	z-index: 99999;
 }
 
 #chrome-lhn-menu .goog-button-base-outer-box.goog-inline-block {
@@ -455,6 +514,7 @@ img.trends-sorting-unsubscribe {
 #nav {
 	background: #d5dde4 !important;
 	border-right: 1px solid #8b8b8b !important;
+	margin-top: 29px !important;
 }
 
 .lhn-hidden #nav {
@@ -932,6 +992,17 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 	padding: 0px !important;
 	height: 23px !important;
 	width: 100px !important;
+	color: white !important;
+	text-shadow: 0 none !important;
+}
+#gbi.gbm a.gb2 {
+	height: 18px !important;
+	line-height: 18px !important;
+	padding: 2px 18px !important;
+}
+#gbi.gbm a.gb2:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #5892e4), color-stop(100%, #1750ba)) !important;
+  background-image: linear-gradient(top, #5892e4 0%, #1750ba 100%) !important;
 }
 
 #guser {

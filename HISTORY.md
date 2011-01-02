@@ -1,3 +1,6 @@
+v1.5
+[New] Added Google Apps switcher toolbar buttons.
+
 v1.4.1
 [Fix] Fixed a bug where an unseen object related to the multi-account button/link would obscure certain buttons.
 [New] Added support for Ireland (.ie)
