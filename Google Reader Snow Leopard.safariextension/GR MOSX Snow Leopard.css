@@ -56,10 +56,14 @@ body {
     background-position: top -109px; }
     #gbar a.gb1[href*='web']:active {
       background-position: bottom -109px; }
-  #gbar a.gb3 {
+  #gbar a.gb1[href*='picasaweb'] {
     background-position: top -136px; }
-    #gbar a.gb3:active {
+    #gbar a.gb1[href*='picasaweb']:active {
       background-position: bottom -136px; }
+  #gbar a.gb3 {
+    background-position: top -163px; }
+    #gbar a.gb3:active {
+      background-position: bottom -163px; }
 
 
 .gbh {
