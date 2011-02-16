@@ -73,6 +73,8 @@
 			<string>https://*.google.ie/reader/view*</string>
 			<string>http://*.google.com.br/reader/view*</string>
 			<string>https://*.google.com.br/reader/view*</string>
+			<string>http://*.google.at/reader/view*</string>
+			<string>https://*.google.at/reader/view*</string>
 		</array>
 	</dict>
 	<key>Description</key>
