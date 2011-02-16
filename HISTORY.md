@@ -1,5 +1,6 @@
 v1.5
 [New] Added Google Apps switcher toolbar buttons.
+[New] Added support for Austria. (.at)
 
 v1.4.1
 [Fix] Fixed a bug where an unseen object related to the multi-account button/link would obscure certain buttons.
@@ -12,7 +13,7 @@ v1.4
 [New] Added support for Russia. (.ru)
 [New] Added support for Hungaria. (.hu)
 [New] Added support for Mexico. (.com.mx)
-[New] Added support for China (.ch)
+[New] Added support for China. (.ch)
 [New] Some changes to search results.
 
 v1.3
