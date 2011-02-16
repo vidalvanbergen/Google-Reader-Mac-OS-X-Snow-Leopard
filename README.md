@@ -1,4 +1,4 @@
-Google Reader Max OS X Snow Leopard + Delicious
+Google Reader Mac OS X Snow Leopard + Delicious
 -----------------------------------------------
 
 Originally ported from [Google Reader: Mac OS X Snow Leopard](http://userstyles.org/styles/16900) and [Google Reader: Mac OS X Snow Leopard + Delicious](http://userstyles.org/styles/19191). and now available as a safari extension!
