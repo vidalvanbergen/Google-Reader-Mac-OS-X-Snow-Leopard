@@ -337,7 +337,7 @@ color: transparent !important;}*/
 }
 
 #sub-tree-refreshing {
-	background: transparent url("img/loader.gif") no-repeat scroll right center !important;
+	background: transparent url("img/loader-wb.gif") no-repeat scroll right center !important;
 	padding-left: 6px !important;
 	padding-right: 20px !important;
 }
