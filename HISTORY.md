@@ -1,3 +1,6 @@
+v1.5.1
+[Fix] There was a margin-gap in the topbar when in fullscreen mode ('f'), now it's set back to 0 in fullscreen mode.
+
 v1.5
 [New] Added Google Apps switcher toolbar buttons.
 [New] Added support for Austria. (.at)
