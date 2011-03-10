@@ -183,6 +183,8 @@ color: transparent !important;}*/
 	padding-left: 20px !important;
 }
 
+/*.entry-body { max-width: 100% !important; }*/
+
 #recent-activity #recent-activity-star h4, 
 .entry .entry-actions .item-star-active, .entry .entry-icons .item-star-active, 
 #star-selector .text {

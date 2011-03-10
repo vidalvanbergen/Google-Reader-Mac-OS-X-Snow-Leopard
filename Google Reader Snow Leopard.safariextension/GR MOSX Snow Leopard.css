@@ -582,7 +582,8 @@ img.trends-sorting-unsubscribe {
 .unread-count.folder-unread-count.unread-count-d-1,
 .unread-count.sub-unread-count.unread-count-d-1,
 .unread-count.sub-unread-count.unread-count-d-2,
-.tree-selected .unread-count.sub-unread-count.unread-count-d-2 {
+.tree-selected .unread-count.sub-unread-count.unread-count-d-2,
+.unread-count {
 	color: #336699 !important;
 }
 
