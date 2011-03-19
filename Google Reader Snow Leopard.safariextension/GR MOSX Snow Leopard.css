@@ -14,61 +14,144 @@ body {
 	display: none !important;
 }
 
-.lhn-hidden #gbar { display: none; }
+/*.lhn-hidden #gbar { display: none; }*/
+.lhn-hidden #gbz { display: none; }
 
-#gbar {
-  z-index: 20 !important;
+.nH.oy8Mbf.nn {
+  display: none !important; }
+
+.nH.oy8Mbf.qp {
+  z-index: 10 !important;
   position: fixed !important;
-  top: 0;
-  line-height: 27px;
-  height: 27px !important;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c7c7c7), color-stop(100%, #a6a6a6)) !important;
+  background-image: -webkit-linear-gradient(top, #c7c7c7 0%, #a6a6a6 100%) !important;
+  background-image: linear-gradient(top, #c7c7c7 0%, #a6a6a6 100%) !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 28px !important;
+  border-bottom: 1px solid #404040 !important; }
+
+.gbzt, .gbgt, .gbgtd, .gbz0l .gbtb2, .gbtcb,
+.gbzt-hvr .gbtb2, .gbgt-hvr .gbtb2, .gbgtd-hvr .gbtb2, .gbto .gbtb2 {
+  border-top: 1px solid transparent !important; }
+
+.gbz0l .gbtb2 {
+  border-top: 1px solid transparent !important; }
+
+.gbzt-hvr, .gbzt:focus, .gbgt-hvr, .gbgt:focus, .gbgtd-hvr, .gbgtd:focus,
+.gbto .gbzt, .gbto .gbgt, .gbto .gbgtd {
+  background: transparent !important; }
+  .gbzt-hvr span, .gbzt:focus span, .gbgt-hvr span, .gbgt:focus span, .gbgtd-hvr span, .gbgtd:focus span,
+  .gbto .gbzt span, .gbto .gbgt span, .gbto .gbgtd span {
+    background: transparent !important; }
+
+#gbx1, #gbx2, #gbx3, #gbx4 {
+  background: none !important;
+  border: 0 !important;
+  display: none !important; }
+
+#gbz, #gbg {
   padding-right: 0px !important;
   padding-top: 0px !important; }
-  #gbar a.gb1, #gbar a.gb3, #gbar b {
-    display: inline-block !important;
-    width: 27px !important;
-    height: 23px !important;
-    float: left;
-    overflow: hidden !important;
-    margin: 3px 0 0 0 !important;
-    text-indent: -999999px;
-    background: transparent url('img/gbar-apps.png') no-repeat left top; }
-  #gbar a.gb1[href*='mail'] { width: 28px !important; }
-  #gbar a.gb1[href*="mail"]:active {
-    width: 28px !important;
-    background-position: bottom left; }
-  #gbar b {
-    width: 27px !important;
-    background-position: bottom -82px; }
-  #gbar a.gb1[href*='calendar'] {
-    background-position: top -28px; }
-    #gbar a.gb1[href*='calendar']:active {
-      background-position: bottom -28px; }
-  #gbar a.gb1[href*='docs'] {
-    background-position: top -55px; }
-    #gbar a.gb1[href*='docs']:active {
-      background-position: bottom -55px; }
-  #gbar a.gb1[href*='reader'] {
-    background-position: top -82px; }
-    #gbar a.gb1[href*='reader']:active {
-      background-position: bottom -82px; }
-  #gbar a.gb1[href*='web'] {
-    background-position: top -109px; }
-    #gbar a.gb1[href*='web']:active {
-      background-position: bottom -109px; }
-  #gbar a.gb1[href*='picasaweb'] {
-    background-position: top -136px; }
-    #gbar a.gb1[href*='picasaweb']:active {
-      background-position: bottom -136px; }
-  #gbar a.gb3 {
-    background-position: top -163px; }
-    #gbar a.gb3:active {
-      background-position: bottom -163px; }
+  #gbz a, #gbg a {
+    color: black !important; }
 
+
+#gbz ol.gbtc a.gbzt, #gbz ol.gbtc a.gbgt {
+  width: 27px !important;
+  height: 23px !important;
+  overflow: hidden !important;
+  margin: 3px 0 0 0 !important;
+  text-indent: -999999px;
+  background: transparent url('img/gbar-apps.png?1297678122') no-repeat left top !important; }
+  #gbz ol.gbtc a.gbzt[href*='mail'], #gbz ol.gbtc a.gbgt[href*='mail'] {
+    background-position: top left !important;
+    width: 28px !important; }
+    #gbz ol.gbtc a.gbzt[href*='mail']:active, #gbz ol.gbtc a.gbgt[href*='mail']:active {
+      background-position: bottom -163px !important; }
+  #gbz ol.gbtc a.gbzt[href*='calendar'], #gbz ol.gbtc a.gbgt[href*='calendar'] {
+    background-position: top -28px !important; }
+    #gbz ol.gbtc a.gbzt[href*='calendar']:active, #gbz ol.gbtc a.gbgt[href*='calendar']:active {
+      background-position: bottom -28px !important; }
+  #gbz ol.gbtc a.gbzt[href*='docs'], #gbz ol.gbtc a.gbgt[href*='docs'] {
+    background-position: top -55px !important; }
+    #gbz ol.gbtc a.gbzt[href*='docs']:active, #gbz ol.gbtc a.gbgt[href*='docs']:active {
+      background-position: bottom -55px !important; }
+  #gbz ol.gbtc a.gbzt[href*='picasaweb'], #gbz ol.gbtc a.gbgt[href*='picasaweb'] {
+    background-position: top -136px !important; }
+    #gbz ol.gbtc a.gbzt[href*='picasaweb']:active, #gbz ol.gbtc a.gbgt[href*='picasaweb']:active {
+      background-position: bottom -136px !important; }
+  #gbz ol.gbtc a.gbzt[href*='reader'], #gbz ol.gbtc a.gbgt[href*='reader'] {
+    background-position: top -82px !important; }
+    #gbz ol.gbtc a.gbzt[href*='reader']:active, #gbz ol.gbtc a.gbgt[href*='reader']:active {
+      background-position: bottom -82px !important; }
+  #gbz ol.gbtc a.gbzt[href*='web'], #gbz ol.gbtc a.gbgt[href*='web'] {
+    background-position: top -109px !important; }
+    #gbz ol.gbtc a.gbzt[href*='web']:active, #gbz ol.gbtc a.gbgt[href*='web']:active {
+      background-position: bottom -109px !important; }
+  #gbz ol.gbtc a.gbzt[href*='options'], #gbz ol.gbtc a.gbgt[href*='options'] {
+    background-position: top -163px !important; }
+  #gbz ol.gbtc a.gbzt.gbz0l, #gbz ol.gbtc a.gbgt.gbz0l {
+    background-position: bottom -82px !important; }
+#gbz ol.gbtc li.gbto a.gbgt {
+  background-position: bottom -163px !important; }
 
 .gbh {
 	border-top: 0px !important;
 }
+
+.gbts {
+  border: 0 !important; }
+
+/* Account switcher & Settings */
+#gbg #gbg4 {
+  position: absolute;
+  right: 300px; }
+#gbg #gbd4 {
+  right: 300px !important; }
+#gbg .gbtb {
+  border-right: 0 !important; }
+#gbg .gbgt-hvr {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.2))) !important;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important;
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important; }
+#gbg .gbts {
+  border: 0 !important;
+  text-shadow: #dddddd 0 1px !important; }
+#gbg .gbto {
+  -webkit-box-shadow: none !important;
+  padding: 0 !important; }
+  #gbg .gbto .gbts {
+    color: rgba(0, 0, 0, 0.8) !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.2))) !important;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important;
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important; }
+#gbg .gbma {
+  border-color: black transparent transparent !important; }
+#gbg #gbs {
+  display: none !important; }
+#gbg #gbi5 {
+  background: transparent url('img/header-settings.png?1300539913') no-repeat center center !important;
+  height: 16px !important;
+  width: 16px !important; }
+
+/* Dropdown Menu's */
+.gbm {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 5px;
+  border: 2px solid white !important;
+  -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.3) !important; }
+
+.gbmc {
+  background: transparent !important; }
+  .gbmc .gbps2 {
+    color: #bfbfbf !important; }
+
+#gbz a.gbmt, #gbz .gbml1, #gbz .gbmpmn, #gbg a.gbmt, #gbg .gbml1, #gbg .gbmpmn, .gbps {
+  color: white !important; }
+
+.gbmt-hvr, .gbmt:focus {
+  background: royalblue !important; }
 
 /*.goog-menu,
 #stream-prefs-menu-contents {
@@ -459,6 +542,7 @@ img.trends-sorting-unsubscribe {
 	z-index: 0 !important;
 	top: 0px !important;
 	margin-left: 0px !important;
+	margin-top: 0 !important;
 	background: #d5dde4 !important;
 }
 
@@ -637,9 +721,9 @@ a:hover .tree-item-action-container {
 }
 
 #search {
-	z-index: 1 !important;
-	top: 4px !important;
-	right: 120px !important;
+	z-index: 101 !important;
+	top: -1px !important;
+	right: 33px !important;
 	background: transparent !important;
 	margin-left: auto !important;
 	width: 285px !important;
@@ -975,36 +1059,36 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 #stream-prefs-menu .goog-button-base-content {
 	padding-right: 0.461em !important;
 }
-
+/*
 #guser {
-	z-index: 20 !important;
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	margin: 0 -15px 0 0 !important;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-	color: transparent !important;
-	font-size: 0 !important;
+  z-index: 20 !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  margin: 0 -15px 0 0 !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: transparent !important;
+  font-size: 0 !important;
 }
 
 #guser a {
-	text-decoration: none !important;
-	color: transparent !important;
+  text-decoration: none !important;
+  color: transparent !important;
 }
 
 #guser, .gbm a {
-	margin: 0px !important;
-	padding: 0px !important;
-	height: 23px !important;
-	width: 100px !important;
-	color: white !important;
-	text-shadow: 0 none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  height: 23px !important;
+  width: 100px !important;
+  color: white !important;
+  text-shadow: 0 none !important;
 }
 #gbi.gbm a.gb2 {
-	height: 18px !important;
-	line-height: 18px !important;
-	padding: 2px 18px !important;
+  height: 18px !important;
+  line-height: 18px !important;
+  padding: 2px 18px !important;
 }
 #gbi.gbm a.gb2:hover {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #5892e4), color-stop(100%, #1750ba)) !important;
@@ -1012,22 +1096,22 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 }
 
 #guser {
-	margin-right: -35px !important;
-	margin-top: 4px !important;
+  margin-right: -35px !important;
+  margin-top: 4px !important;
 }
 
 #settings-link, #help-link, #sign-out, #guser a {
-	width: 26px !important;
-	height: 23px !important;
-	display: block !important;
-	float: left !important;
-	text-indent: -9999px !important;
-	margin: -1px -1px 0 0 !important
+  width: 26px !important;
+  height: 23px !important;
+  display: block !important;
+  float: left !important;
+  text-indent: -9999px !important;
+  margin: -1px -1px 0 0 !important
 }
 
 #guser a.gb3 {
-	display: none !important;
-	background-image: url("img/toolbtn-settings.png") !important;
+  display: none !important;
+  background-image: url("img/toolbtn-settings.png") !important;
 }
 
 #guser b.gb4 {
@@ -1035,52 +1119,52 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 }
 
 #guser a.gb3:active {
-	background-image: url("img/toolbtn-settingsactive.png") !important;
+  background-image: url("img/toolbtn-settingsactive.png") !important;
 }
 
 #guser a[href*="support"].gb4, #guser a[href*="help"].gb4 {
-	background-image: url("img/toolbtn-help.png") !important;
-	margin-right: 0 !important;
+  background-image: url("img/toolbtn-help.png") !important;
+  margin-right: 0 !important;
 }
 
 #guser a[href*="support"].gb4:active {
-	background-image: url("img/toolbtn-helpactive.png") !important;
+  background-image: url("img/toolbtn-helpactive.png") !important;
 }
 
 #guser a[href*="Logout"] {
-	background-image: url("img/toolbtn-signout.png") !important;
-	width: 27px !important;
+  background-image: url("img/toolbtn-signout.png") !important;
+  width: 27px !important;
 }
 
 #guser a[href*="Logout"]:active {
-	background-image: url("img/toolbtn-signoutactive.png") !important;
+  background-image: url("img/toolbtn-signoutactive.png") !important;
 }
 
 #gbs, #gbg {
-	visibility: visible !important;
-	margin: 0px !important;
-	padding: 0px !important;
-	border: 0 none !important;
-	left: -50px !important;
-	top: 1px !important;
-	width: 52px !important;
-	display: block !important;
-	float: left !important;
-	text-indent: -9999px !important;
-	margin: -1px -1px 0 0 !important;
-	background-color: transparent !important;
+  visibility: visible !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0 none !important;
+  left: -50px !important;
+  top: 1px !important;
+  width: 52px !important;
+  display: block !important;
+  float: left !important;
+  text-indent: -9999px !important;
+  margin: -1px -1px 0 0 !important;
+  background-color: transparent !important;
 }
 
 .gb2, .gb3 {
-	position: relative !important;
+  position: relative !important;
 }
 
 #guser b a.gb3 {
-	position: absolute !important;
-	top: 3px !important;
-	right: 445px !important;
+  position: absolute !important;
+  top: 3px !important;
+  right: 445px !important;
 
-	display: block !important;
+  display: block !important;
     height: 16px !important;
     width: 250px !important;
     padding: 2px 4px;
@@ -1093,7 +1177,7 @@ inset 0 1px 1px rgba(0, 0, 0, 0.9) !important;
 }
 
 a.gb3 #gbs {
-	display: none !important;
+  display: none !important;
 }
 
 #guser b a.gb3:active {
@@ -1105,18 +1189,18 @@ a.gb3 #gbs {
     padding: 5px;
     overflow: hidden;
     right: 425px !important;
-	background: rgba(0, 0, 0, 0.85) !important;
-	border: 2px solid white !important;
-	-webkit-border-radius: 8px !important;
-	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3) !important;
-	margin:  0px !important;
-	z-index: 1000 !important;
+  background: rgba(0, 0, 0, 0.85) !important;
+  border: 2px solid white !important;
+  -webkit-border-radius: 8px !important;
+  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3) !important;
+  margin:  0px !important;
+  z-index: 1000 !important;
 
 }
 
 #gb2 a.gb2, #gb2 .gb2 b {
     display: block !important;
-	height: 16px !important;
+  height: 16px !important;
     width: 220px !important;
     float: left !important;
     font-size: 12px;
@@ -1126,41 +1210,41 @@ a.gb3 #gbs {
 }
 
 #gb2 .gb2:hover {
-	background-color: #3366CC !important;
-	background: -webkit-gradient(linear, left top, left bottom, from(#5892e4), to(#1750bc)) !important;
-	color: #fff !important;
+  background-color: #3366CC !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5892e4), to(#1750bc)) !important;
+  color: #fff !important;
 }
 #gb2 .gb2 b { background: transparent url("img/checkwhite.png") no-repeat 1px left !important;  }
 #gb2 .gb2 b:hover { cursor: default; }
 
 #gb2 .gb2 .gbd {
     display: block !important;
-	height: 1px !important;
-	margin: 3px 0 !important;
+  height: 1px !important;
+  margin: 3px 0 !important;
     width: 220px !important;
     float: left !important;
     border-top: 1px solid white !important;
 }
 
 #gbs a:hover, .gbm a:hover {
-	background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 #gbg .gb2:last-child {
-	background-image: url('img/toolbtn-user.png') !important;
+  background-image: url('img/toolbtn-user.png') !important;
 }
 
 #gbg .gb2:last-child:active {
-	background-image: url('img/toolbtn-useractive.png') !important;
+  background-image: url('img/toolbtn-useractive.png') !important;
 }
 
 .gbm a#settings-link {
-	background-image: url("img/toolbtn-settings.png") !important;
+  background-image: url("img/toolbtn-settings.png") !important;
 }
 
 .gbm a#settings-link:active {
-	background-image: url("img/toolbtn-settingsactive.png") !important;
-}
+  background-image: url("img/toolbtn-settingsactive.png") !important;
+}*/
 
 #current-entry.read .collapsed,
 #current-entry.read .card {

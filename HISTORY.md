@@ -1,3 +1,6 @@
+v1.6
+[Fix] Fixed the navigation toolbar after google made some changes, and stylized the new elements.
+
 v1.5.1
 [Fix] There was a margin-gap in the topbar when in fullscreen mode ('f'), now it's set back to 0 in fullscreen mode.
 
