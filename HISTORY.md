@@ -1,4 +1,4 @@
-v1.6.1
+v1.6.1 - 22 Mar, 2011
 [New] Added blue gradients to menu-items when hovering over them and removed the underline. (Thanks to Ilidio for pointing this out.)
 [Fix] Added selected starred unread count text color. (For use with my extension "Better Google Reader v0.95")
 
