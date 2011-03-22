@@ -150,8 +150,18 @@ body {
 #gbz a.gbmt, #gbz .gbml1, #gbz .gbmpmn, #gbg a.gbmt, #gbg .gbml1, #gbg .gbmpmn, .gbps {
   color: white !important; }
 
-.gbmt-hvr, .gbmt:focus {
-  background: royalblue !important; }
+.gbmt-hvr, .gbmt:focus,
+.gbmpala .gbml1-hvr, .gbmpalb .gbml1-hvr {
+  text-decoration: none !important;
+  background-color: royalblue !important;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(88, 146, 228, 1)), color-stop(100%, rgba(23, 80, 188, 1))) !important;
+  background-image: -webkit-linear-gradient(top, rgba(88, 146, 228, 1) 0%, rgba(23, 80, 188, 1) 100%) !important;
+  background-image: linear-gradient(top, rgba(88, 146, 228, 1) 0%, rgba(23, 80, 188, 1) 100%) !important; }
+
+.gbmt-hvr .gbpc .gbps { text-decoration: none !important; }
+
+.gbmpala, .gbmpalb { padding: 0 !important; }
+.gbmpala a, .gbmpalb a { padding: 5px 10px; }
 
 /*.goog-menu,
 #stream-prefs-menu-contents {
