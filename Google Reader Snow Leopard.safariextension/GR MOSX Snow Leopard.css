@@ -77,10 +77,6 @@ body {
     background-position: top -55px !important; }
     #gbz ol.gbtc a.gbzt[href*='docs']:active, #gbz ol.gbtc a.gbgt[href*='docs']:active {
       background-position: bottom -55px !important; }
-  #gbz ol.gbtc a.gbzt[href*='picasaweb'], #gbz ol.gbtc a.gbgt[href*='picasaweb'] {
-    background-position: top -136px !important; }
-    #gbz ol.gbtc a.gbzt[href*='picasaweb']:active, #gbz ol.gbtc a.gbgt[href*='picasaweb']:active {
-      background-position: bottom -136px !important; }
   #gbz ol.gbtc a.gbzt[href*='reader'], #gbz ol.gbtc a.gbgt[href*='reader'] {
     background-position: top -82px !important; }
     #gbz ol.gbtc a.gbzt[href*='reader']:active, #gbz ol.gbtc a.gbgt[href*='reader']:active {
@@ -89,6 +85,10 @@ body {
     background-position: top -109px !important; }
     #gbz ol.gbtc a.gbzt[href*='web']:active, #gbz ol.gbtc a.gbgt[href*='web']:active {
       background-position: bottom -109px !important; }
+  #gbz ol.gbtc a.gbzt[href*='picasaweb'], #gbz ol.gbtc a.gbgt[href*='picasaweb'] {
+    background-position: top -136px !important; }
+    #gbz ol.gbtc a.gbzt[href*='picasaweb']:active, #gbz ol.gbtc a.gbgt[href*='picasaweb']:active {
+      background-position: bottom -136px !important; }
   #gbz ol.gbtc a.gbzt[href*='options'], #gbz ol.gbtc a.gbgt[href*='options'] {
     background-position: top -163px !important; }
   #gbz ol.gbtc a.gbzt.gbz0l, #gbz ol.gbtc a.gbgt.gbz0l {
@@ -101,7 +101,8 @@ body {
 }
 
 .gbts {
-  border: 0 !important; }
+  border: 0 !important;
+  background: transparent !important; }
 
 /* Account switcher & Settings */
 #gbg #gbg4 {
