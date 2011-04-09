@@ -62,39 +62,45 @@ body {
   height: 23px !important;
   overflow: hidden !important;
   margin: 3px 0 0 0 !important;
-  text-indent: -999999px;
-  background: transparent url('img/gbar-apps.png?1297678122') no-repeat left top !important; }
-  #gbz ol.gbtc a.gbzt[href*='mail'], #gbz ol.gbtc a.gbgt[href*='mail'] {
-    background-position: top left !important;
+  text-indent: -999999px; }
+  #gbz ol.gbtc a.gbzt[href*='mail'] {
+    background: transparent url('img/gbar-apps.png') no-repeat left top !important;
     width: 28px !important; }
-    #gbz ol.gbtc a.gbzt[href*='mail']:active, #gbz ol.gbtc a.gbgt[href*='mail']:active {
-      background-position: bottom -163px !important; }
-  #gbz ol.gbtc a.gbzt[href*='calendar'], #gbz ol.gbtc a.gbgt[href*='calendar'] {
-    background-position: top -28px !important; }
-    #gbz ol.gbtc a.gbzt[href*='calendar']:active, #gbz ol.gbtc a.gbgt[href*='calendar']:active {
-      background-position: bottom -28px !important; }
-  #gbz ol.gbtc a.gbzt[href*='docs'], #gbz ol.gbtc a.gbgt[href*='docs'] {
-    background-position: top -55px !important; }
-    #gbz ol.gbtc a.gbzt[href*='docs']:active, #gbz ol.gbtc a.gbgt[href*='docs']:active {
-      background-position: bottom -55px !important; }
-  #gbz ol.gbtc a.gbzt[href*='reader'], #gbz ol.gbtc a.gbgt[href*='reader'] {
-    background-position: top -82px !important; }
-    #gbz ol.gbtc a.gbzt[href*='reader']:active, #gbz ol.gbtc a.gbgt[href*='reader']:active {
-      background-position: bottom -82px !important; }
-  #gbz ol.gbtc a.gbzt[href*='web'], #gbz ol.gbtc a.gbgt[href*='web'] {
-    background-position: top -109px !important; }
-    #gbz ol.gbtc a.gbzt[href*='web']:active, #gbz ol.gbtc a.gbgt[href*='web']:active {
-      background-position: bottom -109px !important; }
-  #gbz ol.gbtc a.gbzt[href*='picasaweb'], #gbz ol.gbtc a.gbgt[href*='picasaweb'] {
-    background-position: top -136px !important; }
-    #gbz ol.gbtc a.gbzt[href*='picasaweb']:active, #gbz ol.gbtc a.gbgt[href*='picasaweb']:active {
-      background-position: bottom -136px !important; }
-  #gbz ol.gbtc a.gbzt[href*='options'], #gbz ol.gbtc a.gbgt[href*='options'] {
-    background-position: top -163px !important; }
-  #gbz ol.gbtc a.gbzt.gbz0l, #gbz ol.gbtc a.gbgt.gbz0l {
-    background-position: bottom -82px !important; }
-#gbz ol.gbtc li.gbto a.gbgt {
-  background-position: bottom -163px !important; }
+    #gbz ol.gbtc a.gbzt[href*='mail']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat left bottom !important; }
+
+  #gbz ol.gbtc a.gbzt[href*='calendar'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -28px top !important; }
+    #gbz ol.gbtc a.gbzt[href*='calendar']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -28px bottom !important; }
+
+  #gbz ol.gbtc a.gbzt[href*='docs'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -55px top !important; }
+    #gbz ol.gbtc a.gbzt[href*='docs']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -55px bottom !important; }
+
+  #gbz ol.gbtc a.gbzt[href*='reader'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -82px bottom !important; }
+    #gbz ol.gbtc a.gbzt[href*='reader']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -82px bottom !important; }
+
+  #gbz ol.gbtc a.gbzt[href*='web'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -109px top !important; }
+    #gbz ol.gbtc a.gbzt[href*='web']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -109px bottom !important; }
+
+  #gbz ol.gbtc a.gbzt[href*='picasaweb'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -136px top !important; }
+    #gbz ol.gbtc a.gbzt[href*='picasaweb']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -136px bottom !important; }
+
+  #gbz ol.gbtc a.gbgt[href*='options'] {
+    background: transparent url('img/gbar-apps.png') no-repeat -163px top !important; }
+    #gbz ol.gbtc a.gbgt[href*='options']:active {
+      background: transparent url('img/gbar-apps.png') no-repeat -163px bottom !important; }
+
+#gbz ol.gbtc li.gbto a.gbgt[href*='options'] { /* More options menu visible */
+  background: transparent url('img/gbar-apps.png') no-repeat -163px bottom !important; }
 
 .gbh {
   border-top: 0px !important;
