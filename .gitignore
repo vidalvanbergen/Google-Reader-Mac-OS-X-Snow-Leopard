@@ -67,3 +67,5 @@ tmtags
 *.exe
 /cache/*
 */cache/*
+
+*.psd
