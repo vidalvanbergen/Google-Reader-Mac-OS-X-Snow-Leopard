@@ -8,13 +8,37 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.vidalvbergen.googlereadersnowleopard</string>
 			<key>CFBundleShortVersionString</key>
-			<string>0.96</string>
+			<string>1.6</string>
 			<key>CFBundleVersion</key>
-			<string>0.96</string>
+			<string>1.6</string>
 			<key>Developer Identifier</key>
 			<string>S9963R4FEQ</string>
 			<key>URL</key>
-			<string>http://mariusth.channelwood.org/SafariExtensions/GoogleReaderSnowLeopard/media/archives/GoogleReaderSnowLeopard.safariextz</string>
+			<string>https://github.com/downloads/vidalvanbergen/Google-Reader-Mac-OS-X-Snow-Leopard/Google%20Reader%20Snow%20Leopard%20v1.6.safariextz</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vidalvbergen.bettergooglereader</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.95</string>
+			<key>CFBundleVersion</key>
+			<string>0.95</string>
+			<key>Developer Identifier</key>
+			<string>S9963R4FEQ</string>
+			<key>URL</key>
+			<string>https://github.com/downloads/vidalvanbergen/Better-Google-Reader/Better%20Google%20Reader%20v0.95.safariextz</string>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.vidalvbergen.imdblinks</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2.2</string>
+			<key>CFBundleVersion</key>
+			<string>2.2</string>
+			<key>Developer Identifier</key>
+			<string>S9963R4FEQ</string>
+			<key>URL</key>
+			<string>http://github.com/downloads/vidalvanbergen/IMDB-Links/imdb-links%20v2.2.safariextz</string>
 		</dict>
 	</array>
 </dict>
