@@ -135,7 +135,7 @@ body {
     background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important; }
 #gbg .gbma {
   border-color: black transparent transparent !important; }
-#gbg #gbs {
+#gbs {
   display: none !important; }
 #gbg #gbi5 {
   background: transparent url('img/header-settings.png?1300539913') no-repeat center center !important;
@@ -555,9 +555,13 @@ img.trends-sorting-unsubscribe {
   margin-left: -1px !important;
 }
 
+#top-bar {
+    top: -25px !important;
+}
+
 #main {
   z-index: 0 !important;
-  top: 0px !important;
+  top: -25px !important;
   margin-left: 0px !important;
   margin-top: 0 !important;
   background: #d5dde4 !important;
@@ -577,7 +581,7 @@ img.trends-sorting-unsubscribe {
 
   position: absolute !important;
   left: 0 !important;
-  top: 0 !important;
+  top: -29px !important;
   right: 0 !important;
 }
 
@@ -618,7 +622,7 @@ img.trends-sorting-unsubscribe {
 #nav {
   background: #d5dde4 !important;
   border-right: 1px solid #8b8b8b !important;
-  margin-top: 29px !important;
+  margin-top: 0px !important;
 }
 
 .lhn-hidden #nav {
