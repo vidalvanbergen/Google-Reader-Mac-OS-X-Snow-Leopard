@@ -1,3 +1,6 @@
+v1.6.3 - 28 Jun, 2011
+[Fix] Fixed fullscreen mode.
+
 v1.6.2 - 25 Jun, 2011
 [Fix] Fixed a bug caused by an update of Google reader.
 

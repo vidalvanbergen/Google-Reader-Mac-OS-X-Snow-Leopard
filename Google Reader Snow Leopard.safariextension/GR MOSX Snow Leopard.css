@@ -561,7 +561,7 @@ img.trends-sorting-unsubscribe {
 
 #main {
   z-index: 0 !important;
-  top: -25px !important;
+  top: 0px !important;
   margin-left: 0px !important;
   margin-top: 0 !important;
   background: #d5dde4 !important;
@@ -585,7 +585,7 @@ img.trends-sorting-unsubscribe {
   right: 0 !important;
 }
 
-#chrome-viewer-container { margin-top: 29px !important; }
+#chrome-viewer-container { margin-top: -41px !important; }
 .fullscreen #chrome-viewer-container { margin-top: 0px !important; }
 
 #chrome-title {
