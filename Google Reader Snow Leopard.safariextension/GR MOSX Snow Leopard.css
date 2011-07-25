@@ -31,9 +31,9 @@ body {
   height: 28px !important;
   border-bottom: 1px solid #404040 !important; }
 
-.gbzt, .gbgt, .gbgtd, .gbz0l .gbtb2, .gbtcb,
+/*.gbzt, .gbgt, .gbgtd, .gbz0l .gbtb2, .gbtcb,
 .gbzt-hvr .gbtb2, .gbgt-hvr .gbtb2, .gbgtd-hvr .gbtb2, .gbto .gbtb2 {
-  border-top: 1px solid transparent !important; }
+  border-top: 1px solid transparent !important; }*/
 
 .gbz0l .gbtb2 {
   border-top: 1px solid transparent !important; }
@@ -63,11 +63,24 @@ body {
   overflow: hidden !important;
   margin: 3px 0 0 0 !important;
   text-indent: -999999px; }
+  
+  #gbz ol.gbtc a.gbzt[href*='plus'] {
+    background: transparent url('img/gbar-apps-plus.png') no-repeat left top !important;
+    width: 28px !important; }
+    #gbz ol.gbtc a.gbzt[href*='plus']:active {
+      background: transparent url('img/gbar-apps-plus.png') no-repeat left bottom !important; }
+  
   #gbz ol.gbtc a.gbzt[href*='mail'] {
     background: transparent url('img/gbar-apps.png') no-repeat left top !important;
     width: 28px !important; }
     #gbz ol.gbtc a.gbzt[href*='mail']:active {
-      background: transparent url('img/gbar-apps.png') no-repeat left bottom !important; }
+      background: transparent url('img/gbar-app.png') no-repeat -left bottom !important; }
+  
+  #gbz ol.gbtc li.gbt:nth-child(2) a.gbzt[href*='mail'] {
+    background: transparent url('img/gbar-apps-plus.png') no-repeat -28px top !important;
+    width: 28px !important; }
+    #gbz ol.gbtc a.gbzt[href*='mail']:active {
+      background: transparent url('img/gbar-app-pluss.png') no-repeat -29px bottom !important; }
 
   #gbz ol.gbtc a.gbzt[href*='calendar'] {
     background: transparent url('img/gbar-apps.png') no-repeat -28px top !important; }
@@ -111,23 +124,29 @@ body {
   background: transparent !important; }
 
 /* Account switcher & Settings */
+#gbg6, #gbg3 { display: none !important; }
 #gbg #gbg4 {
   position: absolute;
-  right: 300px; }
+  right: 0px;
+  height: 27px !important; width: 34px !important;
+  text-indent: -99999px;
+  overflow: hidden !important;
+  background: url('img/user-switcher.png') no-repeat center center !important; }
 #gbg #gbd4 {
-  right: 300px !important; }
+  right: 0px !important; }
+#gbg4.gbg4a { position: absolute; right: 0px !important; }
 #gbg .gbtb {
   border-right: 0 !important; }
-#gbg .gbgt-hvr {
+#gbg .gbgt-hvr, #gbgs4:hover {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.2))) !important;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important;
   background-image: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) !important; }
 #gbg .gbts {
-  border: 0 !important;
+  border: 0 !important; margin-top: -1px;
   text-shadow: #dddddd 0 1px !important; }
 #gbg .gbto {
   -webkit-box-shadow: none !important;
-  padding: 0 !important; }
+ }
   #gbg .gbto .gbts {
     color: rgba(0, 0, 0, 0.8) !important;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.2))) !important;
@@ -148,7 +167,7 @@ body {
   border-radius: 5px;
   border: 2px solid white !important;
   -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.3) !important; }
-
+  .gbps .gbp0i { background: transparent url('img/selected-account.png') no-repeat center center !important; }
 .gbmc {
   background: transparent !important; }
   .gbmc .gbps2 {
@@ -158,13 +177,13 @@ body {
   color: white !important; }
 
 .gbmt-hvr, .gbmt:focus,
-.gbmpala .gbml1-hvr, .gbmpalb .gbml1-hvr {
+.gbmpala .gbml1-hvr, .gbmpalb .gbml1-hvr, .gbmtc .gbml1-hvr {
   text-decoration: none !important;
   background-color: royalblue !important;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, rgba(88, 146, 228, 1)), color-stop(100%, rgba(23, 80, 188, 1))) !important;
   background-image: -webkit-linear-gradient(top, rgba(88, 146, 228, 1) 0%, rgba(23, 80, 188, 1) 100%) !important;
   background-image: linear-gradient(top, rgba(88, 146, 228, 1) 0%, rgba(23, 80, 188, 1) 100%) !important; }
-
+.gbmtc .gbml1 { min-width: 180px; border-radius: 5px; }
 .gbmt-hvr .gbpc .gbps { text-decoration: none !important; }
 
 .gbmpala, .gbmpalb { padding: 0 !important; }
@@ -745,11 +764,10 @@ a:hover .tree-item-action-container {
 #search {
   z-index: 101 !important;
   top: -1px !important;
-  right: 33px !important;
+  right: 63px !important;
   background: transparent !important;
   margin-left: auto !important;
   width: 285px !important;
-  -webkit-border-radius: 10px !important;
 }
 
 #search-input {

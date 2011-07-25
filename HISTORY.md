@@ -1,3 +1,6 @@
+v1.7 - 25 Jul, 2011
+[New] Support for Google+ features.
+
 v1.6.3 - 28 Jun, 2011
 [Fix] Fixed fullscreen mode.
 
