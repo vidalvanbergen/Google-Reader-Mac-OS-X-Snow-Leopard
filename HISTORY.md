@@ -1,3 +1,8 @@
+v1.7.1 - 1 Aug, 2011
+[Fix] Mail button fix for Google+ users.
+[Fix] Added Sites button for Google Apps users
+[Fix] Hopefully added the groups button for Google Apps users, can't verify this.
+
 v1.7 - 25 Jul, 2011
 [New] Support for Google+ features.
 

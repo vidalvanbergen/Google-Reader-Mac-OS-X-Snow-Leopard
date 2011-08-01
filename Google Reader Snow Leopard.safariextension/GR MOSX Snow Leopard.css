@@ -78,9 +78,9 @@ body {
   
   #gbz ol.gbtc li.gbt:nth-child(2) a.gbzt[href*='mail'] {
     background: transparent url('img/gbar-apps-plus.png') no-repeat -28px top !important;
-    width: 28px !important; }
-    #gbz ol.gbtc a.gbzt[href*='mail']:active {
-      background: transparent url('img/gbar-app-pluss.png') no-repeat -29px bottom !important; }
+    width: 27px !important; }
+    #gbz ol.gbtc li.gbt:nth-child(2) a.gbzt[href*='mail']:active {
+      background: transparent url('img/gbar-apps-plus.png') no-repeat -28px bottom !important; }
 
   #gbz ol.gbtc a.gbzt[href*='calendar'] {
     background: transparent url('img/gbar-apps.png') no-repeat -28px top !important; }
@@ -97,15 +97,20 @@ body {
     #gbz ol.gbtc a.gbzt[href*='reader']:active {
       background: transparent url('img/gbar-apps.png') no-repeat -82px bottom !important; }
 
-  #gbz ol.gbtc a.gbzt[href*='web'] {
+  #gbz ol.gbtc a.gbzt[href*='web'], #gbz ol.gbtc a.gbzt[href*='sites'] {
     background: transparent url('img/gbar-apps.png') no-repeat -109px top !important; }
-    #gbz ol.gbtc a.gbzt[href*='web']:active {
+    #gbz ol.gbtc a.gbzt[href*='web']:active, #gbz ol.gbtc a.gbzt[href*='sites']:active {
       background: transparent url('img/gbar-apps.png') no-repeat -109px bottom !important; }
 
   #gbz ol.gbtc a.gbzt[href*='picasaweb'] {
     background: transparent url('img/gbar-apps.png') no-repeat -136px top !important; }
     #gbz ol.gbtc a.gbzt[href*='picasaweb']:active {
       background: transparent url('img/gbar-apps.png') no-repeat -136px bottom !important; }
+
+  #gbz ol.gbtc a.gbgt[href*='group'], #gbz ol.gbtc a.gbgt[href*='grphp'] {
+    background: transparent url('img/gbar-apps-groups.png') no-repeat left top !important; }
+    #gbz ol.gbtc a.gbgt[href*='group']:active, #gbz ol.gbtc a.gbgt[href*='grphp']:active {
+      background: transparent url('img/gbar-apps-groups.png') no-repeat left bottom !important; }
 
   #gbz ol.gbtc a.gbgt[href*='options'] {
     background: transparent url('img/gbar-apps.png') no-repeat -163px top !important; }
